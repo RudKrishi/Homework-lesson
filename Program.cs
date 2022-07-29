@@ -40,3 +40,15 @@ Console.WriteLine($"Максимльное из чисел {d} и {e} и {f} max
     max = e;
     Console.WriteLine($"Максимльное из чисел {d} и {e} и {f} max = {max}");
 }
+
+
+// Задача 3. Программа, которая выдает четное ли число.
+
+int N = new Random().Next(1,10);
+if (N mod 2 = 0)
+ {Console.WriteLine($" {N}  - четное число");
+ }
+ else 
+ {
+    Console.WriteLine($" {N}  - нечетное число");
+ }
