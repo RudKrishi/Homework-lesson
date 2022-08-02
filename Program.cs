@@ -12,9 +12,9 @@ int y = x / 10;
 //Задача 2: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 
 
-int number1 = new Random().Next(1,1000);
+int number1 = new Random().Next(10,1000);
 int z1 = number1 % 10;
-if(z1 < 100)
+if(number1 < 100)
 {
     Console.WriteLine($"Задача 2. number1: {number1}");
     Console.WriteLine($"Третьей цифры нет");
@@ -23,13 +23,11 @@ if(z1 < 100)
 
 else
 {
-while (z1 > 100) 
-{
-z1 = number1 % 10;
+
 Console.WriteLine($"Задача 2. number1: {number1}");
 Console.WriteLine($"z1 = {z1}");
 }
-}
+
 
 
 
