@@ -93,7 +93,7 @@ Console.Write($"Введите число: ");
 N = Convert.ToInt32(Console.ReadLine());
 while (i <= N)
 {
-    a = Convert.ToInt32(Math.Pow(a, 3));
+    a = Convert.ToInt32(Math.Pow(i, 3));
      i++;
         Console.WriteLine(a);
 }
