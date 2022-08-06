@@ -2,45 +2,45 @@
 //Задача 1. Напишите программу, 
 //которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
 
-// int N = 0;
-// int a = 0;
-// int b = 0;
-// int b1 = 0;
-// int c = 0;
-// int c1 = 0;
-// int d = 0;
-// int e = 0;
-// int e1 = 0;
+int N = 0;
+int a = 0;
+int b = 0;
+int b1 = 0;
+int c = 0;
+int c1 = 0;
+int d = 0;
+int e = 0;
+int e1 = 0;
 
-// Console.Write($"Введите пятизначное число: ");
-// N = Convert.ToInt32(Console.ReadLine());
+Console.Write($"Введите пятизначное число: ");
+N = Convert.ToInt32(Console.ReadLine());
 
-// if(N < 100000 && N > 10000)
-// {
-//     a = N / 10000;
-//     b = N / 1000;
-//     b1 = b % 10;
-//     e = N / 100;
-//     e1 = e % 10;
-//     c = N % 100;
-//     c1 = c / 10;
-//     d = N % 10;
+if(N < 100000 && N > 10000)
+{
+    a = N / 10000;
+    b = N / 1000;
+    b1 = b % 10;
+    e = N / 100;
+    e1 = e % 10;
+    c = N % 100;
+    c1 = c / 10;
+    d = N % 10;
 
-//     if (a == d)
-//     {
-//         Console.WriteLine($"Введенное число является палиндромом");
-//     }
-//         else
-//         {
-//             Console.WriteLine($"Введенное число НЕ является палиндромом");
-//         }
+    if ((a == d) && (b1 == c1))
+    {
+        Console.WriteLine($"Введенное число является палиндромом");
+    }
+        else
+        {
+            Console.WriteLine($"Введенное число НЕ является палиндромом");
+        }
+    
+}
 
-//     }
-
-// else
-// {
-//     Console.WriteLine($"Введено неправильное число ");
-// }
+else
+{
+    Console.WriteLine($"Введено неправильное число ");
+}
 
 
 
@@ -86,16 +86,16 @@
 
 //Задача 3. 
 //Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
-int N = 0;
-int i = 1;
-int a = 0;
-Console.Write($"Введите число: ");
-N = Convert.ToInt32(Console.ReadLine());
-while (i <= N)
-{
-    a = Convert.ToInt32(Math.Pow(i, 3));
-     i++;
-        Console.WriteLine(a);
-}
+// int N = 0;
+// int i = 1;
+// int a = 0;
+// Console.Write($"Введите число: ");
+// N = Convert.ToInt32(Console.ReadLine());
+// while (i <= N)
+// {
+//     a = Convert.ToInt32(Math.Pow(i, 3));
+//      i++;
+//         Console.WriteLine(a);
+// }
    
  
