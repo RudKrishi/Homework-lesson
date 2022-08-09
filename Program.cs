@@ -17,17 +17,28 @@
 //Зачада 2. Задача 27: Напишите метод, который принимает 
 //на вход число и выдаёт сумму цифр в числе.
 
+int [] array = new int[];
+
+
+
+
+
+
+
+
+
+
 
 
 //Зачада 3. Задача 29: Напишите метод(ы), который задаёт массив из 8 элементов
 // и выводит их на экран.
 
-int length = 8;
-char [] arg = new char[length];
- int i = 0;
- while ( i < length)
- {
-    arg[i] = Convert.ToChar(new Random().Next(64, 87));
-    Console.WriteLine(arg[i]);
-    i++;
- }
+// int length = 8;
+// char [] arg = new char[length];
+//  int i = 0;
+//  while ( i < length)
+//  {
+//     arg[i] = Convert.ToChar(new Random().Next(64, 87));
+//     Console.WriteLine(arg[i]);
+//     i++;
+//  }
